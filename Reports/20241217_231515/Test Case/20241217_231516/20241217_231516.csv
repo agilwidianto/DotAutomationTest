@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Case,,,,17-12-2024 23:15:20,17-12-2024 23:15:24,4.147s,FAILED
+,,,,,,,
+Test Cases/Delete User,,,,17-12-2024 23:15:20,17-12-2024 23:15:22,2.186s,PASSED
+"response = sendRequest(findTestObject(""Postman/Delete User""))",,,,17-12-2024 23:15:21,17-12-2024 23:15:22,1.934s,PASSED
+"verifyResponseStatusCode(response, 204)",,,,17-12-2024 23:15:22,17-12-2024 23:15:22,0.019s,PASSED
+,,,,,,,
+Test Cases/Get All User,,,,17-12-2024 23:15:22,17-12-2024 23:15:23,0.249s,PASSED
+"response = sendRequest(findTestObject(""Postman/Get All User""))",,,,17-12-2024 23:15:23,17-12-2024 23:15:23,0.073s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,17-12-2024 23:15:23,17-12-2024 23:15:23,0.005s,PASSED
+"verifyElementPropertyValue(response, ""data[0].email"", ""george.bluth@reqres.in"")",,,,17-12-2024 23:15:23,17-12-2024 23:15:23,0.094s,PASSED
+,,,,,,,
+Test Cases/Get Spesific User,,,,17-12-2024 23:15:23,17-12-2024 23:15:23,0.499s,PASSED
+"response = sendRequest(findTestObject(""Postman/Get Spesific User""))",,,,17-12-2024 23:15:23,17-12-2024 23:15:23,0.384s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,17-12-2024 23:15:23,17-12-2024 23:15:23,0.006s,PASSED
+"verifyElementPropertyValue(response, ""data.email"", ""eve.holt@reqres.in"")",,,,17-12-2024 23:15:23,17-12-2024 23:15:23,0.030s,PASSED
+,,,,,,,
+Test Cases/Post User,,,,17-12-2024 23:15:23,17-12-2024 23:15:24,0.536s,FAILED
+"response = sendRequest(findTestObject(""Postman/Post User""))",,,,17-12-2024 23:15:23,17-12-2024 23:15:24,0.395s,PASSED
+"verifyResponseStatusCode(response, 201)",,,,17-12-2024 23:15:24,17-12-2024 23:15:24,0.004s,PASSED
+"verifyElementPropertyValue(response, ""name"", ""morpheus"")",,,,17-12-2024 23:15:24,17-12-2024 23:15:24,0.068s,FAILED
+,,,,,,,
+Test Cases/Put User,,,,17-12-2024 23:15:24,17-12-2024 23:15:24,0.502s,FAILED
+"response = sendRequest(findTestObject(""Postman/Put User""))",,,,17-12-2024 23:15:24,17-12-2024 23:15:24,0.407s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,17-12-2024 23:15:24,17-12-2024 23:15:24,0.004s,PASSED
+"verifyElementPropertyValue(response, ""name"", ""morpheus"")",,,,17-12-2024 23:15:24,17-12-2024 23:15:24,0.029s,FAILED

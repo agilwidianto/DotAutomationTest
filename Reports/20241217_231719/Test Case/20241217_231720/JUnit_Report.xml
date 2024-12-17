@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Case" time="4.161" tests="5" failures="0" errors="0">
+   <testsuite name="Test Case" tests="5" failures="0" errors="0" time="4.161" skipped="0" timestamp="17-12-2024T23:17:23" hostname="Agilw - AgilWidianto" id="Test Suites/Test Case">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Agilw\\git\\DotAutomationTest\\Reports\\20241217_231719\\Test Case\\20241217_231720"/>
+         <property name="logFiles" value="C:\\Users\\Agilw\\git\\DotAutomationTest\\Reports\\20241217_231719\\Test Case\\20241217_231720\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Agilw - AgilWidianto"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+      </properties>
+      <testcase name="Test Cases/Delete User" time="2.209" classname="Test Cases/Delete User" status="PASSED">
+         <system-out><![CDATA[17-12-2024T23:17:24 - [TEST_CASE][PASSED] - Test Cases/Delete User: Test Cases/Delete User
+
+17-12-2024T23:17:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Postman/Delete User")): Send request successfully
+
+17-12-2024T23:17:26 - [MESSAGE][INFO] - HAR: C:\Users\Agilw\git\DotAutomationTest\Reports\20241217_231719\Test Case\20241217_231720\requests\main\0.har
+
+17-12-2024T23:17:26 - [MESSAGE][PASSED] - Send request successfully
+
+17-12-2024T23:17:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+17-12-2024T23:17:26 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Get All User" time="0.247" classname="Test Cases/Get All User" status="PASSED">
+         <system-out><![CDATA[17-12-2024T23:17:26 - [TEST_CASE][PASSED] - Test Cases/Get All User: Test Cases/Get All User
+
+17-12-2024T23:17:26 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Postman/Get All User")): Send request successfully
+
+17-12-2024T23:17:26 - [MESSAGE][INFO] - HAR: C:\Users\Agilw\git\DotAutomationTest\Reports\20241217_231719\Test Case\20241217_231720\requests\main\1.har
+
+17-12-2024T23:17:26 - [MESSAGE][PASSED] - Send request successfully
+
+17-12-2024T23:17:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+17-12-2024T23:17:26 - [MESSAGE][PASSED] - Verify response status code successfully
+
+17-12-2024T23:17:26 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].email", "george.bluth@reqres.in"): Verify element property value successfully
+
+17-12-2024T23:17:26 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Get Spesific User" time="0.557" classname="Test Cases/Get Spesific User" status="PASSED">
+         <system-out><![CDATA[17-12-2024T23:17:26 - [TEST_CASE][PASSED] - Test Cases/Get Spesific User: Test Cases/Get Spesific User
+
+17-12-2024T23:17:26 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Postman/Get Spesific User")): Send request successfully
+
+17-12-2024T23:17:27 - [MESSAGE][INFO] - HAR: C:\Users\Agilw\git\DotAutomationTest\Reports\20241217_231719\Test Case\20241217_231720\requests\main\2.har
+
+17-12-2024T23:17:27 - [MESSAGE][PASSED] - Send request successfully
+
+17-12-2024T23:17:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+17-12-2024T23:17:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+17-12-2024T23:17:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.email", "eve.holt@reqres.in"): Verify element property value successfully
+
+17-12-2024T23:17:27 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Post User" time="0.491" classname="Test Cases/Post User" status="PASSED">
+         <system-out><![CDATA[17-12-2024T23:17:27 - [TEST_CASE][PASSED] - Test Cases/Post User: Test Cases/Post User
+
+17-12-2024T23:17:27 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Postman/Post User")): Send request successfully
+
+17-12-2024T23:17:27 - [MESSAGE][INFO] - HAR: C:\Users\Agilw\git\DotAutomationTest\Reports\20241217_231719\Test Case\20241217_231720\requests\main\3.har
+
+17-12-2024T23:17:27 - [MESSAGE][PASSED] - Send request successfully
+
+17-12-2024T23:17:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+17-12-2024T23:17:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+17-12-2024T23:17:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "morpheus"): Verify element property value successfully
+
+17-12-2024T23:17:27 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Put User" time="0.473" classname="Test Cases/Put User" status="PASSED">
+         <system-out><![CDATA[17-12-2024T23:17:27 - [TEST_CASE][PASSED] - Test Cases/Put User: Test Cases/Put User
+
+17-12-2024T23:17:27 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Postman/Put User")): Send request successfully
+
+17-12-2024T23:17:28 - [MESSAGE][INFO] - HAR: C:\Users\Agilw\git\DotAutomationTest\Reports\20241217_231719\Test Case\20241217_231720\requests\main\4.har
+
+17-12-2024T23:17:28 - [MESSAGE][PASSED] - Send request successfully
+
+17-12-2024T23:17:28 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+17-12-2024T23:17:28 - [MESSAGE][PASSED] - Verify response status code successfully
+
+17-12-2024T23:17:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "morpheus"): Verify element property value successfully
+
+17-12-2024T23:17:28 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-12-2024T23:17:23 - [TEST_SUITE][PASSED] - Test Case: Test Cases/Put User]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
