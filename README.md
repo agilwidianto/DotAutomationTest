@@ -3,7 +3,6 @@
 ![Automation](https://img.shields.io/badge/Automation-Testing-blue?style=flat-square)
 ![Katalon](https://img.shields.io/badge/Framework-Katalon%20Studio-green?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 
 ---
 
